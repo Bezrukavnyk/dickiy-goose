@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Catalog</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220711111408">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="tel:" class="mobile__phone"></a>
+				<a href="index.html" class="header__logo">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<div class="header__navigate">
+					<nav class="header__menu">
+						<ul>
+							<li><a href="index.html">Main</a></li>
+							<select name="form[dropdown]" class="form">
+								<option data-href="catalog.html" value="1" selected>Catalog</option>
+								<option data-href="catalog.html" value="2">Grabe B</option>
+								<option data-href="catalog.html" value="3">Grabe BB</option>
+								<option data-href="catalog.html" value="4">Grabe C</option>
+								<option data-href="catalog.html" value="5">Grabe CP</option>
+							</select>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="header__socials">
+						<a href="#" class="header__social"><img src="img/insta.svg" alt=""></a>
+						<a href="#" class="header__social"><img src="img/face.svg" alt=""></a>
+						<a href="#" class="header__social _mobile"><img src="img/inst-mobile.svg" alt=""></a>
+						<a href="#" class="header__social _mobile"><img src="img/face-mobile.svg" alt=""></a>
+					</div>
+					<div class="header__contact">
+						<a href="+" class="header__contact--phone">+971581047677</a>
+						<a href="mailto:" class="header__contact--mail">freedomplywood@gmail.com</a>
+					</div>
+
+					<div class="header__lang">
+						<select name="form[lang]" class="form">
+							<option data-href="index.html" value="1" selected>ENG</option>
+							<option data-href="index.html" value="2">ENG</option>
+						</select>
+					</div>
+
+					<div class="header__lang--mobile">
+						<a href="">ENG</a>
+						<a href="">ENG</a>
+					</div>
+				</div>
+
+				<div class="menu--btn">
+					<div class="icon-menu"><span></span></div>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="catalog">
+				<div class="howWeWork__decorete--right">
+					<picture><source srcset="img/work.webp" type="image/webp"><img src="img/work.png" alt="" /></picture>
+				</div>
+				<h1 class="title__section">Catalog</h1>
+				<div class="catalog__container">
+					<div class="mobile__filter--title">
+						<span class="icon-filter"></span>
+						Filters
+					</div>
+					<aside class="filter">
+						<form action="#">
+							<div class="filter__title">Search filter</div>
+							<div class="filter__close"></div>
+							<div class="filter__section">
+								<div class="filter__section--title">Sheet size</div>
+								<div class="checkbox">
+									<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">5 x 5 ft</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_2" class="checkbox__label"><span class="checkbox__text">1525 x 1525 mm</span></label>
+								</div>
+							</div>
+							<div class="filter__section">
+								<div class="filter__section--title">Thickness</div>
+								<div class="checkbox">
+									<input id="c_11" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_11" class="checkbox__label"><span class="checkbox__text">1/8 - 15/16 inch</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_12" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_12" class="checkbox__label"><span class="checkbox__text">3 - 24 mm</span></label>
+								</div>
+							</div>
+							<div class="filter__section">
+								<div class="filter__section--title">Grades</div>
+								<div class="checkbox">
+									<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_3" class="checkbox__label"><span class="checkbox__text">B/B</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_8" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_8" class="checkbox__label"><span class="checkbox__text">B/BB</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_4" class="checkbox__label"><span class="checkbox__text">BB/BB</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_5" class="checkbox__label"><span class="checkbox__text">BB/CP</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_6" class="checkbox__label"><span class="checkbox__text">BB/C</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_7" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_7" class="checkbox__label"><span class="checkbox__text">CP/CP</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_9" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_9" class="checkbox__label"><span class="checkbox__text">CP/C</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_10" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									<label for="c_10" class="checkbox__label"><span class="checkbox__text">CP/C</span></label>
+								</div>
+							</div>
+						</form>
+					</aside>
+					<div class="catalog__main">
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+						<div class="catalog__card">
+							<a href="card.html"></a>
+							<div class="catalog__card--ibg">
+								<picture><source srcset="img/catalog.webp" type="image/webp"><img src="img/catalog.png" alt="" /></picture>
+							</div>
+							<div class="catalog__card--title">Grabe B (l)</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="information">
+				<div class="information__decorete--left">
+					<picture><source srcset="img/apl-left.webp" type="image/webp"><img src="img/apl-left.png" alt="" /></picture>
+				</div>
+				<div class="information__container">
+					<h3 class="title__section">Seo - text</h3>
+					<div class="information__wrapper">
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+							quis quia assumenda, cupiditate ratione culpa illum in
+							blanditiis nemo quae architecto id repudiandae dolorum voluptas
+							enim vero voluptatum rerum consequatur. Lorem, ipsum dolor sit
+							amet consectetur adipisicing elit. Earum quis quia assumenda,
+							cupiditate ratione culpa illum in blanditiis nemo quae
+							architecto id repudiandae dolorum voluptas enim vero voluptatum
+							rerum consequatur. Lorem, ipsum dolor sit amet consectetur
+							adipisicing elit. Earum quis quia assumenda, cupiditate ratione
+							culpa illum in blanditiis nemo quae architecto id repudiandae
+							dolorum voluptas enim vero voluptatum rerum consequatur.
+						</p>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+							quis quia assumenda, cupiditate ratione culpa illum in
+							blanditiis nemo quae architecto id repudiandae dolorum voluptas
+							enim vero voluptatum rerum consequatur. Lorem, ipsum dolor sit
+							amet consectetur adipisicing elit. Earum quis quia assumenda,
+							cupiditate ratione culpa illum in blanditiis nemo quae
+							architecto id repudiandae dolorum voluptas enim vero voluptatum
+							rerum consequatur. Lorem, ipsum dolor sit amet consectetur
+							adipisicing elit. Earum quis quia assumenda, cupiditate ratione
+							culpa illum in blanditiis nemo quae architecto id repudiandae
+							dolorum voluptas enim vero voluptatum rerum consequatur.
+						</p>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+							quis quia assumenda, cupiditate ratione culpa illum in
+							blanditiis nemo quae architecto id repudiandae dolorum voluptas
+							enim vero voluptatum rerum consequatur. Lorem, ipsum dolor sit
+							amet consectetur adipisicing elit. Earum quis quia assumenda,
+							cupiditate ratione culpa illum in blanditiis nemo quae
+							architecto id repudiandae dolorum voluptas enim vero voluptatum
+							rerum consequatur. Lorem, ipsum dolor sit amet consectetur
+							adipisicing elit. Earum quis quia assumenda, cupiditate ratione
+							culpa illum in blanditiis nemo quae architecto id repudiandae
+							dolorum voluptas enim vero voluptatum rerum consequatur.
+						</p>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+							quis quia assumenda, cupiditate ratione culpa illum in
+							blanditiis nemo quae architecto id repudiandae dolorum voluptas
+							enim vero voluptatum rerum consequatur. Lorem, ipsum dolor sit
+							amet consectetur adipisicing elit. Earum quis quia assumenda,
+							cupiditate ratione culpa illum in blanditiis nemo quae
+							architecto id repudiandae dolorum voluptas enim vero voluptatum
+							rerum consequatur. Lorem, ipsum dolor sit amet consectetur
+							adipisicing elit. Earum quis quia assumenda, cupiditate ratione
+							culpa illum in blanditiis nemo quae architecto id repudiandae
+							dolorum voluptas enim vero voluptatum rerum consequatur.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="#" class="footer__logo">
+					<img src="img/logo.svg" alt="" />
+				</a>
+				<div class="footer__nav">
+					<ul>
+						<li><a href="index.html">Main</a></li>
+						<li><a href="catalog.html">Catalog</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="footer__contact">
+					<div class="footer__link">
+						<a href="tel:" class="footer__contact--link">+971581047677</a>
+						<a href="mailto:" class="footer__contact--link">freedomplywood@gmail.com</a>
+					</div>
+					<div class="footer__socials">
+						<a href="#" class="footer__social"><img src="img/insta.svg" alt="" /></a>
+						<a href="#" class="footer__social"><img src="img/face.svg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="form-popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="banner__calculate">
+						<div class="banner__calculate--title">
+							Fill out the form and our manager will contact you!
+						</div>
+						<form action="#">
+							<div class="form__inputs _forms">
+								<input type="text" placeholder="Your name" required />
+								<input type="tel" placeholder="Phone number" required />
+							</div>
+							<button class="btn btn-form">Leave application</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="succes-popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="banner__calculate _succes">
+						Thank you, your required was processed successfully
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- вызвать попап flsModules.popup.open('#popup')-->
+	<script src="js/app.min.js?_v=20220711111408"></script>
+</body>
+
+</html>
